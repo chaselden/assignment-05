@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box; }
+
+img {
+  width: 100%;
+  display: block; }
+
+.column-container {
+  font-size: 0;
+  text-align: center;
+  width: 100%; }
+
+.column-container > * {
+  font-size: medium;
+  display: inline-block;
+  vertical-align: top; }
+
+.filter-menu {
+  font-size: medium;
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%; }
+
+#app-container {
+  max-width: 960px; }
+  #app-container .nav-bar {
+    display: inline-block;
+    background-color: light blue;
+    width: 100%;
+    height: 50px; }
+
+.grid-item {
+  width: 50%; }
+
+@media screen and (min-width: 768px) {
+  .grid-item {
+    width: 33.3333%; }
+
+  .filter-menu > * {
+    font-size: medium;
+    display: inline-block;
+    vertical-align: top; }
+
+  .sb-logo > * {
+    font-size: medium;
+    display: inline-block;
+    vertical-align: top;
+    width: 75%;
+    margin-top: 15px; }
+
+  .header > * {
+    font-size: medium;
+    font-family: sans-serif;
+    text-align: center;
+    width: 25%;
+    margin-left: 230px; } }
+@media screen and (min-width: 1024px) {
+  .grid-item {
+    width: 25%; }
+
+  .filter-menu > * {
+    font-size: medium;
+    display: inline-block;
+    vertical-align: top; }
+
+  .sb-logo > * {
+    font-size: medium;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin-top: 15px;
+    border-right: 200px; }
+
+  .header > * {
+    font-size: 0;
+    text-align: right;
+    font-family: sans-serif;
+    width: 25%;
+    margin-left: 200px; }
+
+  #app-container {
+    margin-left: 225px;
+    margin-top: 100px; } }
+
+/*# sourceMappingURL=styles.css.map */
